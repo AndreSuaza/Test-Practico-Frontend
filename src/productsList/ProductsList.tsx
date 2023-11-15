@@ -13,7 +13,7 @@ export const ProductsList = () => {
 
   const getData = async () => {
 
-    const query = location.get('search') as string;
+    const query = location.get('search') as string | "";
     const data = await getFetch(query);
     setItems(data.items);
 
@@ -48,7 +48,7 @@ export const ProductsList = () => {
             </li>) 
             }
           </ul>
-        : <h1>no resultados</h1> }
+        : <h1 className="noProducts">Busca los Productos deseados</h1> }
     </div>
   )
 }

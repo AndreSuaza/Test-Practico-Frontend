@@ -1,4 +1,4 @@
-import { Route, Routes } from "react-router-dom";
+import { Navigate, Route, Routes } from "react-router-dom";
 import { Navbar } from "./components";
 import { ProductsList } from "./productsList/ProductsList";
 import { ProductDetails } from "./productDetail/ProductDetails";
@@ -10,7 +10,7 @@ function App() {
     <>
     <Navbar/>
     <Routes>
-          <Route path="/" element={ <h1>Hoqla</h1> }/>
+          <Route path="/"  element={<Navigate to="/items" replace />}/>
           <Route path="/items" element={ <ProductsList/> }/>
           <Route path="/item/:id" element={ <ProductDetails/> }/>
     </Routes>
