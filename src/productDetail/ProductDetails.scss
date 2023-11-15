@@ -1,0 +1,53 @@
+@import '../styles.scss';
+
+.imgMain {
+    min-width: 680px;
+}
+
+.row {
+    padding: 20px;
+    overflow: hidden;
+}
+
+.col-1 {
+    width: 70%;
+}
+
+.col-2 {
+    width: 30%;
+}
+
+.description {
+    padding: 20px;
+}
+
+.my-20 {
+    margin: 20px auto !important;
+}
+
+.state {
+    font-size: 14px;
+    margin-bottom: 4px;
+}
+
+.title {
+    font-size: 24px;
+    margin-bottom: 16px;
+    margin-top: 0;
+}
+
+.price {
+    margin: 0;
+    font-size: 46px;
+}
+
+.buyButton {
+    background-color: $blue;
+    color: white;
+    font-size: 20px;
+    padding: 8px 32px;
+    border-radius: 4px;
+    border: 0;
+    margin-top: 16px;
+    display: block;
+}

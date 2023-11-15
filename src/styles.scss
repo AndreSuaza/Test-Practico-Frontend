@@ -1,0 +1,41 @@
+$yellow: #FFE600;
+$black: #333333;
+$gray: #666666;
+$light-gray: #999999;
+$lighter-gray: #EEEEEE;
+$blue: #3483FA;
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Makasar&family=Open+Sans:wght@300&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: $lighter-gray;
+    font-family: 'Open Sans', sans-serif;
+    ul {list-style:none;}
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.float {
+    float: left;
+}
+
+.endFloat {
+    overflow: hidden;
+}
+
+.bg-white {
+    background-color: white;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.ml-10 {
+    margin-left: 10px;
+}

@@ -1,0 +1,25 @@
+@import '../styles.scss';
+
+.img-product {
+    height: 180px;
+    width: auto;
+    border-radius: 4px;
+}
+
+ul {
+    padding: 6px;
+    border-radius: 4px;
+}
+
+li {
+    margin: 0 4px;
+    border-bottom: $lighter-gray 1px solid;
+}
+
+h1 {
+    font-size: 18px;
+}
+
+h2 {
+    font-size: 24px;
+}
